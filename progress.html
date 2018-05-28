@@ -54,11 +54,79 @@
             <div class="container">
                 <div id="doc-header" class="doc-header text-center">
                     <h1 class="doc-title"><span aria-hidden="true" class="icon icon_puzzle_alt"></span> Progress </h1>
-                    <div class="meta"><i class="fa fa-clock-o"></i> Last updated: May 20th, 2018</div>
+                    <div class="meta"><i class="fa fa-clock-o"></i> Last updated: May 28th, 2018</div>
                 </div><!--//doc-header-->
                 <div class="doc-body">
                     <div class="doc-content">
                         <div class="content-inner">
+                            <section id="user_stories" class="doc-section">
+
+                                <h2 class="section-title">User Stories</h2>
+                                <div class-"meta"><i class="fa fa-clock-o"></i>Last updated: May 28th, 2018</div>
+                                <div class="section-block">
+                                    <h3>Key (shorthands for two types of users):</h3>
+                                    <u1>
+                                        <li>Peter - a casual social network user. Is not very tech savvy. If things are too hard for him, he will just stop using it. He’s not really sure what “privacy” means, so as long as things seem private, he’s happy.</li>
+                                        <li>Thomas - casual social network user, but is more savvy than Peter. He’s tech savvy enough to know when things are private, and he would like more control over what he can do on the social network platform.</li>
+                                    </u1>
+                                    <div id="wall_user_stories" class="section-block">
+                                        <h3>Wall</h3>
+                                        <u1>
+                                            <li>As Peter, I want to be able to easily post photos to my friends’ walls, so that I can show off my cat.</li>
+                                            <li>As Peter, I want to be able to post photos to my wall, so that I can have personal photos of my cat.</li>
+                                            <li>As Peter, I want to be able to delete photos off of my wall, so that I don’t have to see old photos I don’t care about any more.</li>
+                                            <li>As Thomas, I want to easily see all my posts to friends, so that I feel more comfortable about having control over my information.</li>
+                                            <li>As Thomas, I want to easily delete all my posts to friends, so that I feel like I have more control over my information.</li>
+                                            <li>As Thomas, I want to be able to comment on other people’s po.sts, so that I can tell Peter that his cat posts are great</li>
+                                            <li>As Peter/Thomas, I want to see my most recent posts on my or other people’s walls, so that I can remember what our most relevant conversations were about.</li>
+                                            <li>As Peter/Thomas, I want to be able to search through my posts, so that I can look at past things really easily.</li>
+                                            <li>As Peter/Thomas, I want to search through my friends’ list, so that I can find people easily.</li>
+                                            <li>As Peter/Thomas, I want to be able to see my friends’ faces when I look for them, so I know that I have the right person</li>
+                                            <li>As Peter/Thomas, I want to immediately be able to know when my friends post on my wall or on my comment, so that I can respond back quickly</li>
+                                        </u1>
+                                    </div>
+                                    <div id="settings_user_stories" class="section-block">
+                                        <h3>Settings</h3>
+                                        <u1>
+                                            <li>As Peter/Thomas, I want to be able to change my username, so that I can be known by the name I feel most comfortable with at the time.</li>
+                                            <li>As Peter/Thomas, I want to be able to change my profile picture, so that my friends can easily recognize me.</li>
+                                            <li>As Thomas, I want to be able to change my password, so that I can feel secure.</li>
+                                            <li>As Thomas, I want to be able to change my email, because AOL sucks now.</li>
+                                            <li>As Thomas, I want to be able to get notifications in my email if someone messages me, because I only have a few friends and I really want to keep in touch with them.</li>
+                                            <li>As Thomas, I want to be able to turn off notifications in my email, because the messages are getting annoying.</li>
+                                            <li>As Thomas, I want to 2-factor authentication because I want to feel secure.</li>
+                                        </u1>
+                                    </div>
+                                     <div id="friend_settings_user_stories" class="section-block">
+                                    <h3>Adding, Removing Friends</h3>
+                                        <u1>
+                                            <li>As Peter, I want to send my IRL friends a link to the program, so that they are more likely to join me in the network (since it’s hassle-free).</li>
+                                            <li>As Peter, I want to not be hassled by people I don’t know, so that I can feel secure and private online.</li>
+                                            <li>As Thomas, I want to remove Peter and then have in unable to post or interact with me, so that our breakup is clean.</li>
+                                            <li>As Thomas, I want all my posts to see all my posts to Peter if I unfriend him and then friend him again, so that I don’t feel so bad about unfriending him in the first place.</li>
+                                        </u1>
+                                    </div>
+
+                                </div> <!--end of user stories -->
+                            </section> <!-- end of user stories -->    
+                            <section id="user_flows" class="doc-section">
+                                <h2 class="section-title">User Flows</h2>
+                                <div class="meta"><i class="fa fa-clock-o"></i> Last updated: May 20th, 2018</div>
+                                <div class="section-block">
+                                    <div id="new_user_flow" class="section-block">
+                                        <h3>New User </h3>
+                                        <p>I should be able to access the site at its URL, and it should greet me with a welcome page that gives me the option to sign up somewhere on it.  I should be able to click sign up, and then enter the required information to create a new account.  Once I have created my account, it should take me to the homescreen.  From this screen I should be able to see my own wall, as well as a list of my friends and a way to add friends.  Since I am a new user, I will have no friends added and my wall should be empty.  I will click the add friends button, and it will generate a link that I can send to my friends over text / messenger / whatever.  Once my friend follows that link and adds me as a friend, I should be able to see them in my friends list.  I should be able to click on their name and go to their wall.  I should be able to post to their wall, and also respond to anything they post to my wall with comments.
+                                        </p>
+                                    </div>
+                                    <div id="old_user_flow" class="section-block">
+                                        <h3>Old User</h3>
+                                        <p> My device should remember that I was logged in and I shouldn’t have to go through a login sequence, unless I specifically clicked log out.  I should be sent to my homepage, where I can see all the posts on my wall, both new and old.  I should be able to go to any of my friend’s walls and see all of the posts we’ve made to each other.  Some of the posts may be really old, so there should be an option for me to delete them.  When I delete them, there should be a sense of security and true deletion, and my friend and I shouldn’t be able to see that content any more.
+                                        </p>
+                                    </div>
+                                </div>
+                            </section>
+
+
                             <section id="mockups" class="doc-section">
                                 <h2 class="section-title">Mockups</h2>
                                 <div class="meta"><i class="fa fa-clock-o"></i> Last updated: May 20th, 2018</div>
@@ -185,6 +253,17 @@
                     <div class="doc-sidebar">
                         <nav id="doc-nav">
                             <ul id="doc-menu" class="nav doc-menu hidden-xs" data-spy="affix">
+                                <li><a class="scrollto" href="#user_stories">User Flow</a></li>
+                                <ul class="nav doc-sub-menu">
+                                    <li><a class="scrollto" href="#new_user_flow">New User</a></li>
+                                    <li><a class="scrollto" href="#old">Old User</a></li>
+                                </ul><!--//doc-menu-->                                
+                                <li><a class="scrollto" href="#user_stories">User Stories</a></li>
+                                <ul class="nav doc-sub-menu">
+                                    <li><a class="scrollto" href="#wall_user_stories">Wall</a></li>
+                                    <li><a class="scrollto" href="#settings_user_stories">Settings</a></li>
+                                    <li><a class="scrollto" href="#friend_settings_user_stories">Adding and Removing Friends</a> </li>
+                                </ul><!--//doc-menu-->
                                 <li><a class="scrollto" href="#mockups">Mockups</a></li>
                                 <ul class="nav doc-sub-menu">
                                     <li><a class="scrollto" href="#hand_mockups">Quick Mockups</a></li>
