@@ -54,25 +54,89 @@
             <div class="container">
                 <div id="doc-header" class="doc-header text-center">
                     <h1 class="doc-title"><span aria-hidden="true" class="icon icon_puzzle_alt"></span> Progress </h1>
-                    <div class="meta"><i class="fa fa-clock-o"></i> Last updated: May 28th, 2018</div>
+                    <div class="meta"><i class="fa fa-clock-o"></i> Last updated: May 29th, 2018</div>
                 </div><!--//doc-header-->
                 <div class="doc-body">
                     <div class="doc-content">
                         <div class="content-inner">
+
+                            <section id="sprint1" class="doc-section">
+                                        
+                                <h2 class="section-title">Sprint 1</h2>
+                                <div class-"meta"><i class="fa fa-clock-o"></i>Last updated: May 29th, 2018</div>
+                                <div class="section-block">
+                                        <p>During the first sprint our goals were to: </p>
+                                        <ul>
+                                        <li>Come up with user stories and flows.</li>
+                                        <li>Start creating the basic prototype of Peter-book.</li>
+                                        </ul>
+                                        <p>To do so, every major "feature" was given to a group within our team.</p>
+                                        <h3>Tasks</h3>
+                                        <h6>Matt, Eric, Roy</h6>
+                                        <ul>
+                                        <li>Login</li>
+                                        <li>Two-factor</li>
+                                        <li>Limitations</li>
+                                        <li>Sign-up </li>
+                                        <li>email</li>
+                                        <li>General: Auth</li>
+                                        <li>Octa Integration</li>
+                                        </ul>
+                                        
+                                        <h6>Maya, Luis, Johnathan</h6>
+                                        <ul>
+                                        <li>Profile Page</li>
+                                        <li>Components</li>
+                                        </ul>
+                                        
+                                        <h6>Sherman, Gary</h6>
+                                        <ul>
+                                        <li>Integrating security feature</li>
+                                        <li>Encryption/decryption</li>
+                                        <li>User Model</li>
+                                        <li>Data Model</li>
+                                        <li>Google Key</li>
+                                        </ul>
+
+                                        <h6>Aaron, Julia</h6>
+                                        <ul>
+                                        <li>Test cases</li>
+                                        <li>User stories</li>
+                                        <li>Add/delete friends</li>
+                                        </ul>
+      
+                                        <h3>Adding Friends Demo</h3>
+                                        <video width="800"  controls>
+                                                <source src="./assets/videos/addfriendsdemo.mp4" type="video/mp4">
+
+                                        </video>
+                                        <h3>PeterBook Desktop Demo</h3>
+                                        <video width="800"  controls>
+                                                <source src="./assets/videos/peterbook-desktop.mp4" type="video/mp4">
+
+                                        </video>
+                                        <h3>PeterBook Mobile Demo</h3>
+                                        <video width="800"  controls>
+                                                <source src="./assets/videos/peterbook-mobile.mp4" type="video/mp4">
+
+                                        </video>
+                                </div> <!--end of Sprint1 -->
+                            </section> <!-- end of Sprint1 -->    
+
                             <section id="user_stories" class="doc-section">
 
                                 <h2 class="section-title">User Stories</h2>
                                 <div class-"meta"><i class="fa fa-clock-o"></i>Last updated: May 28th, 2018</div>
                                 <div class="section-block">
                                     <h3>Key (shorthands for two types of users):</h3>
-                                    <u1>
+                                    <ul>
                                         <li>Peter - a casual social network user. Is not very tech savvy. If things are too hard for him, he will just stop using it. He’s not really sure what “privacy” means, so as long as things seem private, he’s happy.</li>
                                         <li>Thomas - casual social network user, but is more savvy than Peter. He’s tech savvy enough to know when things are private, and he would like more control over what he can do on the social network platform.</li>
-                                    </u1>
-                                
+                                    </ul>
+                            
                                     <div id="wall_user_stories" class="section-block">
-                                        <h3>Wall</h3>
-                                        <u1>
+                                    <h3>Wall</h3>
+                                        <ul>
                                             <li>As Peter, I want to be able to easily post photos to my friends’ walls, so that I can show off my cat.</li>
                                             <li>As Peter, I want to be able to post photos to my wall, so that I can have personal photos of my cat.</li>
                                             <li>As Peter, I want to be able to delete photos off of my wall, so that I don’t have to see old photos I don’t care about any more.</li>
@@ -84,11 +148,11 @@
                                             <li>As Peter/Thomas, I want to search through my friends’ list, so that I can find people easily.</li>
                                             <li>As Peter/Thomas, I want to be able to see my friends’ faces when I look for them, so I know that I have the right person</li>
                                             <li>As Peter/Thomas, I want to immediately be able to know when my friends post on my wall or on my comment, so that I can respond back quickly</li>
-                                        </u1>
+                                        </ul>
                                     </div>
                                     <div id="settings_user_stories" class="section-block">
                                         <h3>Settings</h3>
-                                        <u1>
+                                        <ul>
                                             <li>As Peter/Thomas, I want to be able to change my username, so that I can be known by the name I feel most comfortable with at the time.</li>
                                             <li>As Peter/Thomas, I want to be able to change my profile picture, so that my friends can easily recognize me.</li>
                                             <li>As Thomas, I want to be able to change my password, so that I can feel secure.</li>
@@ -96,16 +160,16 @@
                                             <li>As Thomas, I want to be able to get notifications in my email if someone messages me, because I only have a few friends and I really want to keep in touch with them.</li>
                                             <li>As Thomas, I want to be able to turn off notifications in my email, because the messages are getting annoying.</li>
                                             <li>As Thomas, I want to 2-factor authentication because I want to feel secure.</li>
-                                        </u1>
+                                        </ul>
                                     </div>
                                     <div id="friend_settings_user_stories" class="section-block">
                                     <h3>Adding, Removing Friends</h3>
-                                        <u1>
+                                        <ul>
                                             <li>As Peter, I want to send my IRL friends a link to the program, so that they are more likely to join me in the network (since it’s hassle-free).</li>
                                             <li>As Peter, I want to not be hassled by people I don’t know, so that I can feel secure and private online.</li>
                                             <li>As Thomas, I want to remove Peter and then have in unable to post or interact with me, so that our breakup is clean.</li>
                                             <li>As Thomas, I want all my posts to see all my posts to Peter if I unfriend him and then friend him again, so that I don’t feel so bad about unfriending him in the first place.</li>
-                                        </u1>
+                                        </ul>
                                     </div>
 
                                 </div> <!--end of user stories -->
@@ -253,7 +317,8 @@
                     </div><!--//doc-content-->
                     <div class="doc-sidebar">
                         <nav id="doc-nav">
-                            <ul id="doc-menu" class="nav doc-menu hidden-xs" data-spy="affix">            
+                            <ul id="doc-menu" class="nav doc-menu hidden-xs" data-spy="affix">   
+                                <li><a class="scrollto" href="#sprint1">Sprint 1</a></li>
                                 <li><a class="scrollto" href="#user_stories">User Stories</a></li>
                                 <ul class="nav doc-sub-menu">
                                     <li><a class="scrollto" href="#wall_user_stories">Wall</a></li>
