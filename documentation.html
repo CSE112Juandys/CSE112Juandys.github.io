@@ -61,11 +61,74 @@ enable_page_level_ads: true
                 <div id="doc-header" class="doc-header text-center">
                     <h1 class="doc-title"><span aria-hidden="true" class="icon icon_puzzle_alt"></span> Documentation </h1>
                     <div class="meta"><i class="fa fa-clock-o"></i> Last updated: Jan 25th, 2016</div>
-                    <h4> Team Meeting Notes: https://tinyurl.com/teamjuandy</h2>
+                    <h3><u><a href="https://tinyurl.com/teamjuandy" target="_blank"> Team Meeting Notes</a></u></h3>
                 </div><!--//doc-header-->
                 <div class="doc-body">
                     <div class="doc-content">
                         <div class="content-inner">
+                            <section id="postmordem" class="doc-section">
+                                <h2 class="section-title">Post Mordem</h2>
+                                <div class-"meta"><i class="fa fa-clock-o"></i>Last updated: June 13th, 2018</div>
+                                <div class="section-block">
+                                	<h3>Current State of Project</h3>
+                                	<div class = "row">
+                                		<div class = "col-md-6 col-sm-6 col-xs-12">
+											<p>We have managed to get a basic prototype designed. This will be featured in the final demo and progress page.</p>
+                                		</div>
+                                		<div class = "col-md-6 col-sm-6 col-xs-12">
+											<p>While we made great progress on the front end and the logistical parts of storage and back end, we have a lot that we still need to do.</p>
+                                		</div>
+                                	</div>
+                                	<div class ="row"> <!--beginning of state of project -->
+                                		<div class="col-md-6 col-sm-6 col-xs-12">
+		                                	<h6>Things that have been done:</h6>
+		                                	<ul>
+		                                		<li>We have login page, user's personal wall, and friends list up and running</li>
+		                                		<li>Can add friends to database and generate friend links</li>
+		                                		<li>Encryption schema has been implemented</li>
+		                                		<li>The basic pipeline works</li>
+		                                	</ul>
+		                                </div>
+		                                <div class="col-md-6 col-sm-6 col-xs-12">
+		                                	<h6>Things to do/be implemented</h6>
+		                                	<ul>
+		                                		<li>Better code coverage</li>
+		                                		<li>Two-factor authentication</li>
+		                                		<li>Library of web components</li>
+		                                		<li>Implementing social network groups</li>
+		                                		<li>Adding a more robust test suite</li>
+		                                		<li>Implementing ads service</li>
+		                                		<li>UX: Make the application look more secure to users</li>
+		                                	</ul>
+		                                </div>
+                                	</div> <!-- end of row of state of project -->
+
+                                	<h3>Thoughts and Reflections</h3>
+                                	<div class ="row"> <!--beginning of thoughts and reflections -->
+                                		<div class="col-md-6 col-sm-6 col-xs-12">
+		                                	<h6>Things that went well</h6>
+		                                	<ul>
+		                                		<li>Code development went well in pairs/individually because each individual communicated and agreed on what they could do.</li>
+		                                		<li>Weekly (almost daily) meetings led to a lot of communication in person. Our ability to meet was due to luck and our members' dedication. Some members had to sacrifice time from classes to meet.</li>
+		                                		<li>Our "Hackathons" for each sprint (6 hour coding sessions) were successful and led to less stress overall. This is partially because the hackathons were not meant to finish work. Instead, they were meant to kick-off our work.</li>
+		                                		<li>Team bonding went well because we set aside time that was not dedicated to work to bond and we did not work afterwards.</li>
+		                                		<li>Overall communication through the Slack messaging service was useful because of the usage of channels.</li>
+		                                	</ul>
+		                                </div>
+		                                <div class="col-md-6 col-sm-6 col-xs-12">
+		                                	<h6>Struggles/Mistakes</h6>
+		                                	<ul>
+		                                		<li>Mistake: Creating tests after writing code led to struggles trying to create tests</li>
+		                                		<li>Struggle: Using the pipeline properly and consistently did not occur</li>
+		                                		<li>Mistake: Starting meetings with no agenda lead to aimless hours</li>
+		                                		<li>Struggle: Thorough code documentation was forgotten about during the sprints</li>
+		                                		<li>Mistake: Not having a schema and outline for how front-end, back-end, and tests all interact and come together led to tests not being written well</li>
+		                                	</ul>
+		                                </div>
+                                	</div> <!-- end of thoughts and reflections -->
+                               	</div> <!--end of section block -->
+                            </section>
+
                             <section id="design" class="doc-section">
                                 <h2 class="section-title">Design</h2>
                                 <div class-"meta"><i class="fa fa-clock-o"></i>Last updated: June 3rd, 2018</div>
@@ -149,6 +212,7 @@ enable_page_level_ads: true
                     <div class="doc-sidebar">
                         <nav id="doc-nav">
                             <ul id="doc-menu" class="nav doc-menu hidden-xs" data-spy="affix">
+                            	<li><a class="scrollto" href="#postmordem">Post Mordem</a></li>
                             	<li><a class="scrollto" href="#design">Design</a></li>
                                 <li><a class="scrollto" href="#user_stories">User Stories</a></li>
                                 <ul class="nav doc-sub-menu">

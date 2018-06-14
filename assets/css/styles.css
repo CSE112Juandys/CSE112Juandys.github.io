@@ -50,6 +50,10 @@ a:hover {
 a:focus {
   text-decoration: none;
 }
+u{
+    text-decoration: underline;
+    text-decoration-color: #339597;
+}
 code {
   background: #222;
   color: #fff;
@@ -1266,3 +1270,7 @@ select {
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
+
+.column {
+  float:left;
+}
