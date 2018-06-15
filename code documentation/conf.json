@@ -1,0 +1,23 @@
+{
+    "plugins": [],
+    "recurseDepth": 4,
+    "source": {
+        "includePattern": ".+\\.js(doc|x)?$",
+        "excludePattern": "(^|\\/|\\\\)_"
+    },
+    "sourceType": "module",
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": ["jsdoc","closure"]
+    },
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false,
+        "systemName"            : "Peterbook",
+        "footer"                : "Peterbook by Juandys",
+        "copyright"             : "Juandys",
+        "theme"                 : "cerulean",
+        "linenums"              : true,
+        "syntaxTheme"           : "default"
+    }
+}
